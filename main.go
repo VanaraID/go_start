@@ -1,11 +1,17 @@
 package main
 
 import (
-	"fmt"
+	"fmt" // formatted
+
+	"github.com/VanaraID/go_start/fundamentals"
+	"github.com/VanaraID/go_start/joglo"
 )
 
 func main() {
+	word, nomor := fundamentals.HelloWorld()
 
-	fmt.Println("Hello, world!")
+	alamat := joglo.GetAddress()
 
+	fmt.Println(word)
+	fmt.Println("Alamat: ", alamat, nomor)
 }

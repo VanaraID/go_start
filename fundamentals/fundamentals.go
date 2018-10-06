@@ -1,5 +1,5 @@
 package fundamentals
 
-func HelloWorld() string {
-	return "Hello, world!"
+func HelloWorld() (string, int) {
+	return "Hello", 22
 }
